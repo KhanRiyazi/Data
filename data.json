@@ -1,0 +1,474 @@
+{
+    "resources": [
+        {
+            "id": 1,
+            "title": "The Lean Startup",
+            "description": "How to build a startup with less waste and faster iteration. Eric Ries' methodology for continuous innovation.",
+            "category": "blog",
+            "url": "https://theleanstartup.com/",
+            "status": "read",
+            "tags": [
+                "startup",
+                "methodology",
+                "innovation"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Zero to One",
+            "description": "Notes on startups, or how to build the future. Peter Thiel's insights on creating unique value.",
+            "category": "blog",
+            "url": "https://zerotoone.com",
+            "status": "read",
+            "tags": [
+                "startup",
+                "innovation",
+                "monopoly"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Indie Hackers",
+            "description": "Community of bootstrapped founders sharing their journeys, revenue stories, and lessons learned.",
+            "category": "website",
+            "url": "https://indiehackers.com",
+            "status": "watch",
+            "tags": [
+                "community",
+                "bootstrapping",
+                "saas"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Y Combinator Startup School",
+            "description": "Free startup education from the best accelerator in the world. Learn from YC partners and founders.",
+            "category": "course",
+            "url": "https://startupschool.org",
+            "status": "saved",
+            "tags": [
+                "education",
+                "accelerator",
+                "yc"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "My First Million Podcast",
+            "description": "Sam Parr and Shaan Puri dive into business ideas, strategies, and interviews with successful founders.",
+            "category": "podcast",
+            "url": "https://myfirstmillion.com",
+            "status": "watch",
+            "tags": [
+                "podcast",
+                "ideas",
+                "inspiration"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Growth Marketing Handbook",
+            "description": "Practical growth strategies for SaaS and startups. Learn from top growth marketers in the industry.",
+            "category": "blog",
+            "url": "https://growthmarketing.com",
+            "status": "read",
+            "tags": [
+                "marketing",
+                "growth",
+                "saas"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Product Hunt",
+            "description": "Discover the latest tech products and startups. Get early access to innovative tools and platforms.",
+            "category": "website",
+            "url": "https://producthunt.com",
+            "status": "saved",
+            "tags": [
+                "discovery",
+                "products",
+                "tech"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "SaaStr Blog",
+            "description": "Insights from Jason Lemkin on scaling SaaS companies from $1M to $100M+ in revenue.",
+            "category": "blog",
+            "url": "https://saastr.com",
+            "status": "read",
+            "tags": [
+                "saas",
+                "scaling",
+                "sales"
+            ]
+        },
+        {
+            "id": 9,
+            "title": "The Tim Ferriss Show",
+            "description": "Tim Ferriss deconstructs world-class performers from various fields to extract actionable advice.",
+            "category": "podcast",
+            "url": "https://tim.blog/podcast",
+            "status": "watch",
+            "tags": [
+                "podcast",
+                "productivity",
+                "performance"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "The Mom Test",
+            "description": "How to talk to customers and learn if your business is a good idea when everyone is lying to you.",
+            "category": "blog",
+            "url": "https://momtest.com",
+            "status": "read",
+            "tags": [
+                "customer",
+                "validation",
+                "research"
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Hacker News",
+            "description": "Tech news and startup discussions from the Y Combinator community.",
+            "category": "website",
+            "url": "https://news.ycombinator.com",
+            "status": "saved",
+            "tags": [
+                "tech",
+                "news",
+                "community"
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Startup Grind",
+            "description": "Global community of entrepreneurs. Fireside chats with founders, investors, and thought leaders.",
+            "category": "website",
+            "url": "https://startupgrind.com",
+            "status": "watch",
+            "tags": [
+                "community",
+                "events",
+                "networking"
+            ]
+        },
+        {
+            "id": 13,
+            "title": "The Personal MBA",
+            "description": "Master the art of business without spending years in business school. Josh Kaufman's essential guide.",
+            "category": "blog",
+            "url": "https://personalmba.com",
+            "status": "read",
+            "tags": [
+                "business",
+                "education",
+                "management"
+            ]
+        },
+        {
+            "id": 14,
+            "title": "Both Sides of the Table",
+            "description": "Mark Suster's blog on entrepreneurship, venture capital, and the startup ecosystem.",
+            "category": "blog",
+            "url": "https://bothsidesofthetable.com",
+            "status": "saved",
+            "tags": [
+                "vc",
+                "startup",
+                "entrepreneurship"
+            ]
+        },
+        {
+            "id": 15,
+            "title": "The Side Hustle Show",
+            "description": "Interviews with successful side hustlers who turned their side projects into full-time businesses.",
+            "category": "podcast",
+            "url": "https://sidehustleshow.com",
+            "status": "watch",
+            "tags": [
+                "sidehustle",
+                "inspiration",
+                "business"
+            ]
+        }
+    ],
+    "videos": [
+        {
+            "id": 1,
+            "title": "How to Build a Billion Dollar Company",
+            "description": "Navid Modiri interviews successful founders and shares the strategies behind billion-dollar businesses.",
+            "url": "https://www.youtube.com/embed/6w0W2w4JrG8",
+            "topic": "mindset",
+            "watched": false
+        },
+        {
+            "id": 2,
+            "title": "Startup Marketing: Growth Hacking 101",
+            "description": "Learn practical growth strategies from top marketers in the startup ecosystem.",
+            "url": "https://www.youtube.com/embed/7V4p8sSgqY0",
+            "topic": "marketing",
+            "watched": false
+        },
+        {
+            "id": 3,
+            "title": "Financial Independence for Freelancers",
+            "description": "How to manage your finances, build wealth, and achieve financial freedom as a freelancer.",
+            "url": "https://www.youtube.com/embed/8MpLe4fK-4Q",
+            "topic": "finance",
+            "watched": true
+        },
+        {
+            "id": 4,
+            "title": "Product-Led Growth Strategies",
+            "description": "How to build products that sell themselves and create a self-sustaining growth engine.",
+            "url": "https://www.youtube.com/embed/9Vp4s8SgqY0",
+            "topic": "product",
+            "watched": false
+        },
+        {
+            "id": 5,
+            "title": "Leadership & Team Building",
+            "description": "Essential skills for scaling your team and leading with empathy and vision.",
+            "url": "https://www.youtube.com/embed/10Vp4s8SgqY0",
+            "topic": "leadership",
+            "watched": false
+        },
+        {
+            "id": 6,
+            "title": "From Freelancer to Agency Owner",
+            "description": "Real stories from freelancers who grew their solo practice into a thriving agency.",
+            "url": "https://www.youtube.com/embed/11Wp4s8SgqY0",
+            "topic": "mindset",
+            "watched": false
+        },
+        {
+            "id": 7,
+            "title": "Pricing Strategies That Work",
+            "description": "Learn how to price your services for maximum profitability and client satisfaction.",
+            "url": "https://www.youtube.com/embed/12Wp4s8SgqY0",
+            "topic": "sales",
+            "watched": true
+        },
+        {
+            "id": 8,
+            "title": "Scaling Your Business to $10M",
+            "description": "Step-by-step guide to scaling your business from 6 to 7 figures.",
+            "url": "https://www.youtube.com/embed/13Wp4s8SgqY0",
+            "topic": "leadership",
+            "watched": false
+        },
+        {
+            "id": 9,
+            "title": "The Art of Negotiation",
+            "description": "Negotiation tactics for freelancers, founders, and business owners.",
+            "url": "https://www.youtube.com/embed/14Wp4s8SgqY0",
+            "topic": "sales",
+            "watched": false
+        },
+        {
+            "id": 10,
+            "title": "Building a Personal Brand",
+            "description": "How to build a powerful personal brand that attracts clients and opportunities.",
+            "url": "https://www.youtube.com/embed/15Wp4s8SgqY0",
+            "topic": "marketing",
+            "watched": false
+        }
+    ],
+    "blogs": [
+        {
+            "id": 1,
+            "title": "From Freelancer to Founder: My Journey",
+            "description": "How I transitioned from solo freelancer to building a 20-person agency in 3 years.",
+            "category": "startup",
+            "url": "https://example.com/blog1",
+            "read": true
+        },
+        {
+            "id": 2,
+            "title": "The Art of Pricing Your Services",
+            "description": "Value-based pricing strategies for freelancers and consultants.",
+            "category": "growth",
+            "url": "https://example.com/blog2",
+            "read": false
+        },
+        {
+            "id": 3,
+            "title": "Building a Personal Brand that Attracts Clients",
+            "description": "How to position yourself as an expert and attract high-ticket clients.",
+            "category": "marketing",
+            "url": "https://example.com/blog3",
+            "read": false
+        },
+        {
+            "id": 4,
+            "title": "Financial Systems for Agency Owners",
+            "description": "Manage cash flow, profitability, and financial operations for your business.",
+            "category": "finance",
+            "url": "https://example.com/blog4",
+            "read": true
+        },
+        {
+            "id": 5,
+            "title": "Hiring Your First Employee",
+            "description": "Everything you need to know about making your first hire and building a team.",
+            "category": "leadership",
+            "url": "https://example.com/blog5",
+            "read": false
+        },
+        {
+            "id": 6,
+            "title": "The Zero to One Mindset",
+            "description": "How to think like a true entrepreneur and build something unique.",
+            "category": "startup",
+            "url": "https://example.com/blog6",
+            "read": true
+        },
+        {
+            "id": 7,
+            "title": "Growth Marketing Playbook",
+            "description": "Proven growth strategies for SaaS and service-based businesses.",
+            "category": "growth",
+            "url": "https://example.com/blog7",
+            "read": false
+        },
+        {
+            "id": 8,
+            "title": "Sales Funnels for Freelancers",
+            "description": "How to build a sales system that brings in consistent leads and clients.",
+            "category": "marketing",
+            "url": "https://example.com/blog8",
+            "read": false
+        },
+        {
+            "id": 9,
+            "title": "Investing in Your Business",
+            "description": "Smart financial decisions to grow your business and build wealth.",
+            "category": "finance",
+            "url": "https://example.com/blog9",
+            "read": true
+        },
+        {
+            "id": 10,
+            "title": "Leading High-Performance Teams",
+            "description": "How to build, motivate, and retain a high-performance team.",
+            "category": "leadership",
+            "url": "https://example.com/blog10",
+            "read": false
+        }
+    ],
+    "tools": [
+        {
+            "id": 1,
+            "name": "Notion",
+            "description": "All-in-one workspace for notes, databases, and project management. Use it to organize your business.",
+            "category": "productivity",
+            "url": "https://notion.com",
+            "mastered": false
+        },
+        {
+            "id": 2,
+            "name": "Figma",
+            "description": "Design tool for UI/UX prototyping and collaboration. Essential for design-led companies.",
+            "category": "design",
+            "url": "https://figma.com",
+            "mastered": true
+        },
+        {
+            "id": 3,
+            "name": "Zapier",
+            "description": "Automate workflows between hundreds of apps without writing any code.",
+            "category": "automation",
+            "url": "https://zapier.com",
+            "mastered": false
+        },
+        {
+            "id": 4,
+            "name": "Stripe",
+            "description": "Payment processing for businesses of all sizes. Accept payments from anywhere.",
+            "category": "finance",
+            "url": "https://stripe.com",
+            "mastered": true
+        },
+        {
+            "id": 5,
+            "name": "Vercel",
+            "description": "Deploy modern frontend apps with ease. Built for developers who ship fast.",
+            "category": "development",
+            "url": "https://vercel.com",
+            "mastered": false
+        },
+        {
+            "id": 6,
+            "name": "HubSpot",
+            "description": "All-in-one CRM, marketing, sales, and customer service platform for growing businesses.",
+            "category": "marketing",
+            "url": "https://hubspot.com",
+            "mastered": false
+        },
+        {
+            "id": 7,
+            "name": "Airtable",
+            "description": "Combine the power of spreadsheets with the structure of databases. Build workflows that scale.",
+            "category": "productivity",
+            "url": "https://airtable.com",
+            "mastered": false
+        },
+        {
+            "id": 8,
+            "name": "Adobe XD",
+            "description": "Design and prototype user experiences with Adobe's powerful design tool.",
+            "category": "design",
+            "url": "https://adobe.com/xd",
+            "mastered": true
+        },
+        {
+            "id": 9,
+            "name": "GitHub",
+            "description": "Code hosting and collaboration platform. Essential for team development.",
+            "category": "development",
+            "url": "https://github.com",
+            "mastered": true
+        },
+        {
+            "id": 10,
+            "name": "Buffer",
+            "description": "Social media management platform to schedule posts and analyze performance.",
+            "category": "marketing",
+            "url": "https://buffer.com",
+            "mastered": false
+        },
+        {
+            "id": 11,
+            "name": "Make (Integromat)",
+            "description": "Visual automation platform that connects apps and automates complex workflows.",
+            "category": "automation",
+            "url": "https://make.com",
+            "mastered": false
+        },
+        {
+            "id": 12,
+            "name": "Xero",
+            "description": "Cloud-based accounting software for small businesses and agencies.",
+            "category": "finance",
+            "url": "https://xero.com",
+            "mastered": false
+        }
+    ],
+    "settings": {
+        "name": "Rizwan Ali",
+        "email": "rizwanrka826@gmail.com",
+        "bio": "Freelancer on a mission to become a great entrepreneur. Passionate about building products and teams.",
+        "currency": "USD",
+        "timezone": "EST"
+    },
+    "journey": {
+        "milestones": 7,
+        "resourcesConsumed": 15,
+        "videosWatched": 8,
+        "toolsMastered": 5
+    }
+}
