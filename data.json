@@ -1,474 +1,1267 @@
 {
+    "skills": [
+        {
+            "id": "python",
+            "name": "Python Programming",
+            "icon": "fa-python",
+            "color": "#3776AB"
+        },
+        {
+            "id": "stats",
+            "name": "Statistics & Probability",
+            "icon": "fa-calculator",
+            "color": "#f59e0b"
+        },
+        {
+            "id": "wrangling",
+            "name": "Data Wrangling",
+            "icon": "fa-broom",
+            "color": "#34d399"
+        },
+        {
+            "id": "viz",
+            "name": "Data Visualization",
+            "icon": "fa-chart-bar",
+            "color": "#22d3ee"
+        },
+        {
+            "id": "sql",
+            "name": "SQL & Databases",
+            "icon": "fa-database",
+            "color": "#3b82f6"
+        },
+        {
+            "id": "ml",
+            "name": "Machine Learning",
+            "icon": "fa-robot",
+            "color": "#8b5cf6"
+        },
+        {
+            "id": "dl",
+            "name": "Deep Learning",
+            "icon": "fa-brain",
+            "color": "#ec4899"
+        },
+        {
+            "id": "nlp",
+            "name": "Natural Language Processing",
+            "icon": "fa-language",
+            "color": "#14b8a6"
+        },
+        {
+            "id": "bigdata",
+            "name": "Big Data",
+            "icon": "fa-server",
+            "color": "#f97316"
+        },
+        {
+            "id": "engineering",
+            "name": "Data Engineering",
+            "icon": "fa-cogs",
+            "color": "#64748b"
+        }
+    ],
     "resources": [
         {
             "id": 1,
-            "title": "The Lean Startup",
-            "description": "How to build a startup with less waste and faster iteration. Eric Ries' methodology for continuous innovation.",
-            "category": "blog",
-            "url": "https://theleanstartup.com/",
-            "status": "read",
+            "skill": "python",
+            "type": "documentation",
+            "title": "Python Official Docs",
+            "description": "Complete Python 3 documentation — tutorials, library reference, and language specification.",
+            "url": "https://docs.python.org/3/",
+            "difficulty": "beginner",
             "tags": [
-                "startup",
-                "methodology",
-                "innovation"
-            ]
+                "python",
+                "official"
+            ],
+            "official": true
         },
         {
             "id": 2,
-            "title": "Zero to One",
-            "description": "Notes on startups, or how to build the future. Peter Thiel's insights on creating unique value.",
-            "category": "blog",
-            "url": "https://zerotoone.com",
-            "status": "read",
+            "skill": "python",
+            "type": "course",
+            "title": "Python for Everybody (Coursera)",
+            "description": "University of Michigan's Python course — covers fundamentals to data structures.",
+            "url": "https://www.coursera.org/specializations/python",
+            "difficulty": "beginner",
             "tags": [
-                "startup",
-                "innovation",
-                "monopoly"
-            ]
+                "python",
+                "coursera"
+            ],
+            "official": true
         },
         {
             "id": 3,
-            "title": "Indie Hackers",
-            "description": "Community of bootstrapped founders sharing their journeys, revenue stories, and lessons learned.",
-            "category": "website",
-            "url": "https://indiehackers.com",
-            "status": "watch",
+            "skill": "python",
+            "type": "video",
+            "title": "CS50's Python Programming",
+            "description": "Harvard's free Python course — full lecture series on YouTube.",
+            "url": "https://www.youtube.com/playlist?list=PLhQjrBD2T3817j24-Gogtsm0L9Qm1jEY6",
+            "difficulty": "beginner",
             "tags": [
-                "community",
-                "bootstrapping",
-                "saas"
-            ]
+                "python",
+                "harvard"
+            ],
+            "official": false
         },
         {
             "id": 4,
-            "title": "Y Combinator Startup School",
-            "description": "Free startup education from the best accelerator in the world. Learn from YC partners and founders.",
-            "category": "course",
-            "url": "https://startupschool.org",
-            "status": "saved",
+            "skill": "python",
+            "type": "practice",
+            "title": "LeetCode Python",
+            "description": "Practice Python coding problems with real-world scenarios and algorithms.",
+            "url": "https://leetcode.com/problemset/all/?language=python3",
+            "difficulty": "intermediate",
             "tags": [
-                "education",
-                "accelerator",
-                "yc"
-            ]
+                "python",
+                "coding"
+            ],
+            "official": false
         },
         {
             "id": 5,
-            "title": "My First Million Podcast",
-            "description": "Sam Parr and Shaan Puri dive into business ideas, strategies, and interviews with successful founders.",
-            "category": "podcast",
-            "url": "https://myfirstmillion.com",
-            "status": "watch",
+            "skill": "python",
+            "type": "book",
+            "title": "Automate the Boring Stuff",
+            "description": "Free book on Python automation — great for beginners building practical skills.",
+            "url": "https://automatetheboringstuff.com/",
+            "difficulty": "beginner",
             "tags": [
-                "podcast",
-                "ideas",
-                "inspiration"
-            ]
+                "python",
+                "book"
+            ],
+            "official": false
         },
         {
             "id": 6,
-            "title": "Growth Marketing Handbook",
-            "description": "Practical growth strategies for SaaS and startups. Learn from top growth marketers in the industry.",
-            "category": "blog",
-            "url": "https://growthmarketing.com",
-            "status": "read",
+            "skill": "stats",
+            "type": "course",
+            "title": "Khan Academy Statistics",
+            "description": "Free comprehensive statistics course with interactive exercises and real-world examples.",
+            "url": "https://www.khanacademy.org/math/statistics-probability",
+            "difficulty": "beginner",
             "tags": [
-                "marketing",
-                "growth",
-                "saas"
-            ]
+                "stats",
+                "probability"
+            ],
+            "official": true
         },
         {
             "id": 7,
-            "title": "Product Hunt",
-            "description": "Discover the latest tech products and startups. Get early access to innovative tools and platforms.",
-            "category": "website",
-            "url": "https://producthunt.com",
-            "status": "saved",
+            "skill": "stats",
+            "type": "wiki",
+            "title": "Statistics — Wikipedia",
+            "description": "Complete Wikipedia entry on statistics — theory, methods, distributions, and applications.",
+            "url": "https://en.wikipedia.org/wiki/Statistics",
+            "difficulty": "beginner",
             "tags": [
-                "discovery",
-                "products",
-                "tech"
-            ]
+                "stats",
+                "reference"
+            ],
+            "official": false
         },
         {
             "id": 8,
-            "title": "SaaStr Blog",
-            "description": "Insights from Jason Lemkin on scaling SaaS companies from $1M to $100M+ in revenue.",
-            "category": "blog",
-            "url": "https://saastr.com",
-            "status": "read",
+            "skill": "stats",
+            "type": "video",
+            "title": "StatQuest with Josh Starmer",
+            "description": "The best YouTube channel for statistics and ML concepts — clear, visual explanations.",
+            "url": "https://www.youtube.com/c/statquest/playlists",
+            "difficulty": "beginner",
             "tags": [
-                "saas",
-                "scaling",
-                "sales"
-            ]
+                "stats",
+                "visual"
+            ],
+            "official": false
         },
         {
             "id": 9,
-            "title": "The Tim Ferriss Show",
-            "description": "Tim Ferriss deconstructs world-class performers from various fields to extract actionable advice.",
-            "category": "podcast",
-            "url": "https://tim.blog/podcast",
-            "status": "watch",
+            "skill": "stats",
+            "type": "book",
+            "title": "Think Stats",
+            "description": "Free book on probability and statistics for Python programmers — hands-on examples.",
+            "url": "https://greenteapress.com/wp/think-stats-2e/",
+            "difficulty": "intermediate",
             "tags": [
-                "podcast",
-                "productivity",
-                "performance"
-            ]
+                "stats",
+                "book"
+            ],
+            "official": false
         },
         {
             "id": 10,
-            "title": "The Mom Test",
-            "description": "How to talk to customers and learn if your business is a good idea when everyone is lying to you.",
-            "category": "blog",
-            "url": "https://momtest.com",
-            "status": "read",
+            "skill": "wrangling",
+            "type": "course",
+            "title": "Data Cleaning with Python (Kaggle)",
+            "description": "Learn to clean, prepare, and transform data using pandas — practical and hands-on.",
+            "url": "https://www.kaggle.com/learn/data-cleaning",
+            "difficulty": "intermediate",
             "tags": [
-                "customer",
-                "validation",
-                "research"
-            ]
+                "wrangling",
+                "pandas"
+            ],
+            "official": true
         },
         {
             "id": 11,
-            "title": "Hacker News",
-            "description": "Tech news and startup discussions from the Y Combinator community.",
-            "category": "website",
-            "url": "https://news.ycombinator.com",
-            "status": "saved",
+            "skill": "wrangling",
+            "type": "documentation",
+            "title": "Pandas Official Docs",
+            "description": "Core data manipulation library — complete docs, tutorials, and API reference.",
+            "url": "https://pandas.pydata.org/docs/",
+            "difficulty": "intermediate",
             "tags": [
-                "tech",
-                "news",
-                "community"
-            ]
+                "wrangling",
+                "pandas"
+            ],
+            "official": true
         },
         {
             "id": 12,
-            "title": "Startup Grind",
-            "description": "Global community of entrepreneurs. Fireside chats with founders, investors, and thought leaders.",
-            "category": "website",
-            "url": "https://startupgrind.com",
-            "status": "watch",
+            "skill": "wrangling",
+            "type": "documentation",
+            "title": "NumPy Official Docs",
+            "description": "Fundamental package for numerical computing — arrays, math, and linear algebra.",
+            "url": "https://numpy.org/doc/stable/",
+            "difficulty": "intermediate",
             "tags": [
-                "community",
-                "events",
-                "networking"
-            ]
+                "wrangling",
+                "numpy"
+            ],
+            "official": true
         },
         {
             "id": 13,
-            "title": "The Personal MBA",
-            "description": "Master the art of business without spending years in business school. Josh Kaufman's essential guide.",
-            "category": "blog",
-            "url": "https://personalmba.com",
-            "status": "read",
+            "skill": "wrangling",
+            "type": "video",
+            "title": "Pandas Tutorial (Corey Schafer)",
+            "description": "Clear and detailed Pandas tutorials on YouTube — from basics to advanced.",
+            "url": "https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS",
+            "difficulty": "intermediate",
             "tags": [
-                "business",
-                "education",
-                "management"
-            ]
+                "wrangling",
+                "pandas"
+            ],
+            "official": false
         },
         {
             "id": 14,
-            "title": "Both Sides of the Table",
-            "description": "Mark Suster's blog on entrepreneurship, venture capital, and the startup ecosystem.",
-            "category": "blog",
-            "url": "https://bothsidesofthetable.com",
-            "status": "saved",
+            "skill": "viz",
+            "type": "course",
+            "title": "Data Visualization with Python (FreeCodeCamp)",
+            "description": "FreeCodeCamp course on matplotlib, seaborn, and plotly — interactive and hands-on.",
+            "url": "https://www.freecodecamp.org/learn/data-visualization/",
+            "difficulty": "intermediate",
             "tags": [
-                "vc",
-                "startup",
-                "entrepreneurship"
-            ]
+                "viz",
+                "matplotlib",
+                "seaborn"
+            ],
+            "official": true
         },
         {
             "id": 15,
-            "title": "The Side Hustle Show",
-            "description": "Interviews with successful side hustlers who turned their side projects into full-time businesses.",
-            "category": "podcast",
-            "url": "https://sidehustleshow.com",
-            "status": "watch",
+            "skill": "viz",
+            "type": "documentation",
+            "title": "Matplotlib Official Docs",
+            "description": "Complete Matplotlib docs — galleries, tutorials, and API reference.",
+            "url": "https://matplotlib.org/stable/",
+            "difficulty": "intermediate",
             "tags": [
-                "sidehustle",
-                "inspiration",
-                "business"
+                "viz",
+                "matplotlib"
+            ],
+            "official": true
+        },
+        {
+            "id": 16,
+            "skill": "viz",
+            "type": "documentation",
+            "title": "Seaborn Official Docs",
+            "description": "Statistical data visualization library — beautiful defaults and advanced plots.",
+            "url": "https://seaborn.pydata.org/",
+            "difficulty": "intermediate",
+            "tags": [
+                "viz",
+                "seaborn"
+            ],
+            "official": true
+        },
+        {
+            "id": 17,
+            "skill": "viz",
+            "type": "blog",
+            "title": "FlowingData",
+            "description": "Blog about data visualization and statistics by Nathan Yau — great inspiration.",
+            "url": "https://flowingdata.com/",
+            "difficulty": "beginner",
+            "tags": [
+                "viz",
+                "blog"
+            ],
+            "official": false
+        },
+        {
+            "id": 18,
+            "skill": "sql",
+            "type": "course",
+            "title": "Intro to SQL (Kaggle)",
+            "description": "Free SQL course from Kaggle — learn querying, joins, and data manipulation.",
+            "url": "https://www.kaggle.com/learn/intro-to-sql",
+            "difficulty": "beginner",
+            "tags": [
+                "sql",
+                "kaggle"
+            ],
+            "official": true
+        },
+        {
+            "id": 19,
+            "skill": "sql",
+            "type": "documentation",
+            "title": "PostgreSQL Official Docs",
+            "description": "The world's most advanced open source database — complete docs and tutorials.",
+            "url": "https://www.postgresql.org/docs/",
+            "difficulty": "intermediate",
+            "tags": [
+                "sql",
+                "postgres"
+            ],
+            "official": true
+        },
+        {
+            "id": 20,
+            "skill": "sql",
+            "type": "practice",
+            "title": "SQLZoo",
+            "description": "Interactive SQL tutorial with live exercises — from basics to advanced queries.",
+            "url": "https://sqlzoo.net/",
+            "difficulty": "beginner",
+            "tags": [
+                "sql",
+                "interactive"
+            ],
+            "official": false
+        },
+        {
+            "id": 21,
+            "skill": "sql",
+            "type": "video",
+            "title": "freeCodeCamp SQL Tutorial (4 hours)",
+            "description": "Comprehensive SQL video course — from basics to advanced queries and joins.",
+            "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+            "difficulty": "beginner",
+            "tags": [
+                "sql",
+                "video"
+            ],
+            "official": false
+        },
+        {
+            "id": 22,
+            "skill": "ml",
+            "type": "course",
+            "title": "Andrew Ng ML Course (Coursera)",
+            "description": "The legendary Machine Learning course — linear regression, SVMs, neural networks, and more.",
+            "url": "https://www.coursera.org/learn/machine-learning",
+            "difficulty": "intermediate",
+            "tags": [
+                "ml",
+                "andrew-ng"
+            ],
+            "official": true
+        },
+        {
+            "id": 23,
+            "skill": "ml",
+            "type": "documentation",
+            "title": "Scikit-learn Official Docs",
+            "description": "The go-to ML library for Python — complete docs with examples and tutorials.",
+            "url": "https://scikit-learn.org/stable/",
+            "difficulty": "intermediate",
+            "tags": [
+                "ml",
+                "sklearn"
+            ],
+            "official": true
+        },
+        {
+            "id": 24,
+            "skill": "ml",
+            "type": "video",
+            "title": "Sentdex ML Tutorials",
+            "description": "Practical ML tutorials with Python — scikit-learn, TensorFlow, and real-world projects.",
+            "url": "https://www.youtube.com/playlist?list=PLQVvvaa0QuDfKTOs3Keq_62GxMNQpxpMG",
+            "difficulty": "intermediate",
+            "tags": [
+                "ml",
+                "practical"
+            ],
+            "official": false
+        },
+        {
+            "id": 25,
+            "skill": "ml",
+            "type": "wiki",
+            "title": "Machine Learning — Wikipedia",
+            "description": "Comprehensive overview — history, algorithms, applications, and research directions.",
+            "url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "difficulty": "beginner",
+            "tags": [
+                "ml",
+                "reference"
+            ],
+            "official": false
+        },
+        {
+            "id": 26,
+            "skill": "ml",
+            "type": "book",
+            "title": "Introduction to Statistical Learning",
+            "description": "Free book by James, Witten, Hastie, Tibshirani — with R and Python labs.",
+            "url": "https://www.statlearning.com/",
+            "difficulty": "intermediate",
+            "tags": [
+                "ml",
+                "book"
+            ],
+            "official": false
+        },
+        {
+            "id": 27,
+            "skill": "ml",
+            "type": "roadmap",
+            "title": "Data Science Roadmap",
+            "description": "GitHub's curated list of data science resources, learning paths, and tools.",
+            "url": "https://github.com/academic/awesome-datascience",
+            "difficulty": "beginner",
+            "tags": [
+                "roadmap",
+                "guide"
+            ],
+            "official": false
+        },
+        {
+            "id": 28,
+            "skill": "dl",
+            "type": "course",
+            "title": "Deep Learning Specialization (Coursera)",
+            "description": "Andrew Ng's deep learning specialization — CNNs, RNNs, Transformers, and more.",
+            "url": "https://www.coursera.org/specializations/deep-learning",
+            "difficulty": "advanced",
+            "tags": [
+                "dl",
+                "neural-networks"
+            ],
+            "official": true
+        },
+        {
+            "id": 29,
+            "skill": "dl",
+            "type": "documentation",
+            "title": "TensorFlow Official Docs",
+            "description": "Complete TensorFlow docs — from beginner to advanced with tutorials and guides.",
+            "url": "https://www.tensorflow.org/docs",
+            "difficulty": "advanced",
+            "tags": [
+                "dl",
+                "tensorflow"
+            ],
+            "official": true
+        },
+        {
+            "id": 30,
+            "skill": "dl",
+            "type": "documentation",
+            "title": "PyTorch Official Docs",
+            "description": "Dynamic deep learning framework — comprehensive docs, tutorials, and examples.",
+            "url": "https://pytorch.org/docs/stable/",
+            "difficulty": "advanced",
+            "tags": [
+                "dl",
+                "pytorch"
+            ],
+            "official": true
+        },
+        {
+            "id": 31,
+            "skill": "dl",
+            "type": "wiki",
+            "title": "Deep Learning — Wikipedia",
+            "description": "Comprehensive article — history, architectures, applications, and research.",
+            "url": "https://en.wikipedia.org/wiki/Deep_learning",
+            "difficulty": "intermediate",
+            "tags": [
+                "dl",
+                "reference"
+            ],
+            "official": false
+        },
+        {
+            "id": 32,
+            "skill": "nlp",
+            "type": "course",
+            "title": "NLP with Python (Coursera)",
+            "description": "DeepLearning.AI's NLP course — from word embeddings to Transformers and LLMs.",
+            "url": "https://www.coursera.org/learn/natural-language-processing",
+            "difficulty": "intermediate",
+            "tags": [
+                "nlp",
+                "transformers"
+            ],
+            "official": true
+        },
+        {
+            "id": 33,
+            "skill": "nlp",
+            "type": "documentation",
+            "title": "NLTK Official Docs",
+            "description": "Natural Language Toolkit — complete docs, corpus, and examples.",
+            "url": "https://www.nltk.org/",
+            "difficulty": "intermediate",
+            "tags": [
+                "nlp",
+                "nltk"
+            ],
+            "official": true
+        },
+        {
+            "id": 34,
+            "skill": "nlp",
+            "type": "documentation",
+            "title": "spaCy Official Docs",
+            "description": "Industrial-strength NLP library — fast, production-ready, and well-documented.",
+            "url": "https://spacy.io/docs",
+            "difficulty": "intermediate",
+            "tags": [
+                "nlp",
+                "spacy"
+            ],
+            "official": true
+        },
+        {
+            "id": 35,
+            "skill": "nlp",
+            "type": "wiki",
+            "title": "Natural Language Processing — Wikipedia",
+            "description": "Wikipedia overview — theory, methods, applications, and challenges.",
+            "url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+            "difficulty": "beginner",
+            "tags": [
+                "nlp",
+                "reference"
+            ],
+            "official": false
+        },
+        {
+            "id": 36,
+            "skill": "bigdata",
+            "type": "course",
+            "title": "Big Data with Hadoop & Spark",
+            "description": "University course on big data processing with Hadoop and Spark.",
+            "url": "https://www.coursera.org/learn/big-data-hadoop",
+            "difficulty": "advanced",
+            "tags": [
+                "bigdata",
+                "hadoop",
+                "spark"
+            ],
+            "official": true
+        },
+        {
+            "id": 37,
+            "skill": "bigdata",
+            "type": "documentation",
+            "title": "Apache Spark Official Docs",
+            "description": "Unified analytics engine for big data — complete docs and examples.",
+            "url": "https://spark.apache.org/docs/latest/",
+            "difficulty": "advanced",
+            "tags": [
+                "bigdata",
+                "spark"
+            ],
+            "official": true
+        },
+        {
+            "id": 38,
+            "skill": "bigdata",
+            "type": "wiki",
+            "title": "Big Data — Wikipedia",
+            "description": "Wikipedia overview — concepts, technologies, and challenges in big data.",
+            "url": "https://en.wikipedia.org/wiki/Big_data",
+            "difficulty": "beginner",
+            "tags": [
+                "bigdata",
+                "reference"
+            ],
+            "official": false
+        },
+        {
+            "id": 39,
+            "skill": "engineering",
+            "type": "course",
+            "title": "Data Engineering with Python (Coursera)",
+            "description": "Build data pipelines, ETL processes, and data infrastructure with Python.",
+            "url": "https://www.coursera.org/learn/data-engineering-python",
+            "difficulty": "advanced",
+            "tags": [
+                "engineering",
+                "etl"
+            ],
+            "official": true
+        },
+        {
+            "id": 40,
+            "skill": "engineering",
+            "type": "documentation",
+            "title": "Apache Airflow Official Docs",
+            "description": "Workflow orchestration platform — schedule, monitor, and manage data pipelines.",
+            "url": "https://airflow.apache.org/docs/",
+            "difficulty": "advanced",
+            "tags": [
+                "engineering",
+                "airflow"
+            ],
+            "official": true
+        },
+        {
+            "id": 41,
+            "skill": "engineering",
+            "type": "wiki",
+            "title": "Data Engineering — Wikipedia",
+            "description": "Wikipedia overview — concepts, best practices, and technologies.",
+            "url": "https://en.wikipedia.org/wiki/Data_engineering",
+            "difficulty": "intermediate",
+            "tags": [
+                "engineering",
+                "reference"
+            ],
+            "official": false
+        },
+        {
+            "id": 42,
+            "skill": "python",
+            "type": "practice",
+            "title": "HackerRank Python",
+            "description": "Practice Python coding challenges — earn badges and improve your skills.",
+            "url": "https://www.hackerrank.com/domains/python",
+            "difficulty": "beginner",
+            "tags": [
+                "python",
+                "practice"
+            ],
+            "official": false
+        },
+        {
+            "id": 43,
+            "skill": "ml",
+            "type": "practice",
+            "title": "Kaggle Competitions",
+            "description": "Real-world ML competitions with datasets, notebooks, and community discussions.",
+            "url": "https://www.kaggle.com/competitions",
+            "difficulty": "intermediate",
+            "tags": [
+                "ml",
+                "kaggle"
+            ],
+            "official": false
+        },
+        {
+            "id": 44,
+            "skill": "python",
+            "type": "roadmap",
+            "title": "Python Data Science Handbook",
+            "description": "Free book by Jake VanderPlas — covers NumPy, Pandas, Matplotlib, Scikit-Learn.",
+            "url": "https://jakevdp.github.io/PythonDataScienceHandbook/",
+            "difficulty": "intermediate",
+            "tags": [
+                "python",
+                "book"
+            ],
+            "official": false
+        }
+    ],
+    "learningPath": [
+        {
+            "step": 1,
+            "title": "Python Programming for Data Science",
+            "description": "Master Python fundamentals, data structures, functions, OOP, and essential libraries (NumPy, Pandas, Matplotlib) for data analysis.",
+            "skills": [
+                "python"
+            ],
+            "subtopics": [
+                "Variables & Data Types",
+                "Loops & Conditionals",
+                "Functions & Modules",
+                "OOP Basics",
+                "NumPy Arrays",
+                "Pandas Series & DataFrames"
+            ],
+            "officialLinks": [
+                {
+                    "name": "Python Official Docs",
+                    "url": "https://docs.python.org/3/"
+                },
+                {
+                    "name": "Python Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Python_(programming_language)"
+                },
+                {
+                    "name": "W3Schools Python",
+                    "url": "https://www.w3schools.com/python/"
+                },
+                {
+                    "name": "Real Python Tutorials",
+                    "url": "https://realpython.com/"
+                },
+                {
+                    "name": "NumPy Docs",
+                    "url": "https://numpy.org/doc/stable/"
+                },
+                {
+                    "name": "Pandas Docs",
+                    "url": "https://pandas.pydata.org/docs/"
+                }
+            ]
+        },
+        {
+            "step": 2,
+            "title": "Statistics & Probability",
+            "description": "Learn descriptive statistics, probability distributions, hypothesis testing, and statistical inference — the foundation of data science.",
+            "skills": [
+                "stats"
+            ],
+            "subtopics": [
+                "Descriptive Statistics",
+                "Probability Distributions",
+                "Central Limit Theorem",
+                "Hypothesis Testing",
+                "Confidence Intervals",
+                "Correlation & Causation"
+            ],
+            "officialLinks": [
+                {
+                    "name": "Khan Academy Statistics",
+                    "url": "https://www.khanacademy.org/math/statistics-probability"
+                },
+                {
+                    "name": "Statistics Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Statistics"
+                },
+                {
+                    "name": "StatQuest YouTube",
+                    "url": "https://www.youtube.com/c/statquest"
+                },
+                {
+                    "name": "MIT Statistics Course",
+                    "url": "https://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014/"
+                },
+                {
+                    "name": "SciPy Stats Docs",
+                    "url": "https://docs.scipy.org/doc/scipy/reference/stats.html"
+                }
+            ]
+        },
+        {
+            "step": 3,
+            "title": "Data Wrangling & Cleaning",
+            "description": "Collect, clean, transform, and prepare data for analysis using pandas, NumPy, and data validation techniques.",
+            "skills": [
+                "wrangling"
+            ],
+            "subtopics": [
+                "Data Collection",
+                "Handling Missing Values",
+                "Data Transformation",
+                "Outlier Detection",
+                "Feature Engineering",
+                "Data Validation"
+            ],
+            "officialLinks": [
+                {
+                    "name": "Kaggle Data Cleaning",
+                    "url": "https://www.kaggle.com/learn/data-cleaning"
+                },
+                {
+                    "name": "Pandas Docs",
+                    "url": "https://pandas.pydata.org/docs/"
+                },
+                {
+                    "name": "NumPy Docs",
+                    "url": "https://numpy.org/doc/stable/"
+                },
+                {
+                    "name": "Corey Schafer Pandas",
+                    "url": "https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS"
+                },
+                {
+                    "name": "Data Wrangling Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Data_wrangling"
+                }
+            ]
+        },
+        {
+            "step": 4,
+            "title": "Data Visualization",
+            "description": "Create compelling visual stories using matplotlib, seaborn, plotly, and Tableau to communicate insights effectively.",
+            "skills": [
+                "viz"
+            ],
+            "subtopics": [
+                "Matplotlib Basics",
+                "Seaborn Statistical Plots",
+                "Interactive Dashboards",
+                "Geospatial Visualization",
+                "Storytelling with Data"
+            ],
+            "officialLinks": [
+                {
+                    "name": "Matplotlib Docs",
+                    "url": "https://matplotlib.org/stable/"
+                },
+                {
+                    "name": "Seaborn Docs",
+                    "url": "https://seaborn.pydata.org/"
+                },
+                {
+                    "name": "Plotly Docs",
+                    "url": "https://plotly.com/python/"
+                },
+                {
+                    "name": "Tableau Public",
+                    "url": "https://public.tableau.com/"
+                },
+                {
+                    "name": "Data Visualization Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Data_visualization"
+                },
+                {
+                    "name": "FreeCodeCamp Data Viz",
+                    "url": "https://www.freecodecamp.org/learn/data-visualization/"
+                }
+            ]
+        },
+        {
+            "step": 5,
+            "title": "SQL & Databases",
+            "description": "Master SQL querying, joins, aggregations, and database design for data extraction and manipulation.",
+            "skills": [
+                "sql"
+            ],
+            "subtopics": [
+                "SELECT Queries",
+                "JOINs & Subqueries",
+                "Aggregations & Group By",
+                "Window Functions",
+                "Database Design",
+                "Performance Optimization"
+            ],
+            "officialLinks": [
+                {
+                    "name": "Kaggle SQL Course",
+                    "url": "https://www.kaggle.com/learn/intro-to-sql"
+                },
+                {
+                    "name": "PostgreSQL Docs",
+                    "url": "https://www.postgresql.org/docs/"
+                },
+                {
+                    "name": "SQLZoo",
+                    "url": "https://sqlzoo.net/"
+                },
+                {
+                    "name": "SQL Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/SQL"
+                },
+                {
+                    "name": "freeCodeCamp SQL Video",
+                    "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY"
+                }
+            ]
+        },
+        {
+            "step": 6,
+            "title": "Machine Learning",
+            "description": "Understand supervised and unsupervised learning algorithms, model evaluation, and hyperparameter tuning with scikit-learn.",
+            "skills": [
+                "ml"
+            ],
+            "subtopics": [
+                "Linear Regression",
+                "Logistic Regression",
+                "Decision Trees",
+                "Random Forests",
+                "SVM",
+                "Clustering (K-means)",
+                "Model Evaluation Metrics"
+            ],
+            "officialLinks": [
+                {
+                    "name": "Andrew Ng ML Course",
+                    "url": "https://www.coursera.org/learn/machine-learning"
+                },
+                {
+                    "name": "Scikit-learn Docs",
+                    "url": "https://scikit-learn.org/stable/"
+                },
+                {
+                    "name": "ML Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Machine_learning"
+                },
+                {
+                    "name": "Introduction to Statistical Learning",
+                    "url": "https://www.statlearning.com/"
+                },
+                {
+                    "name": "Sentdex ML Tutorials",
+                    "url": "https://www.youtube.com/playlist?list=PLQVvvaa0QuDfKTOs3Keq_62GxMNQpxpMG"
+                },
+                {
+                    "name": "Kaggle Competitions",
+                    "url": "https://www.kaggle.com/competitions"
+                }
+            ]
+        },
+        {
+            "step": 7,
+            "title": "Deep Learning",
+            "description": "Explore neural networks, CNNs, RNNs, and Transformers using TensorFlow and PyTorch.",
+            "skills": [
+                "dl"
+            ],
+            "subtopics": [
+                "Neural Networks Basics",
+                "Backpropagation",
+                "CNNs for Image Analysis",
+                "RNNs for Sequences",
+                "Transformers",
+                "Model Deployment"
+            ],
+            "officialLinks": [
+                {
+                    "name": "Deep Learning Specialization (Coursera)",
+                    "url": "https://www.coursera.org/specializations/deep-learning"
+                },
+                {
+                    "name": "TensorFlow Docs",
+                    "url": "https://www.tensorflow.org/docs"
+                },
+                {
+                    "name": "PyTorch Docs",
+                    "url": "https://pytorch.org/docs/stable/"
+                },
+                {
+                    "name": "Deep Learning Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Deep_learning"
+                },
+                {
+                    "name": "Hugging Face Transformers",
+                    "url": "https://huggingface.co/docs/transformers/index"
+                }
+            ]
+        },
+        {
+            "step": 8,
+            "title": "Natural Language Processing",
+            "description": "Process and analyze text data using NLTK, spaCy, and Hugging Face Transformers.",
+            "skills": [
+                "nlp"
+            ],
+            "subtopics": [
+                "Text Preprocessing",
+                "Tokenization",
+                "Word Embeddings",
+                "Sentiment Analysis",
+                "Named Entity Recognition",
+                "Transformers & LLMs"
+            ],
+            "officialLinks": [
+                {
+                    "name": "NLP Course (Coursera)",
+                    "url": "https://www.coursera.org/learn/natural-language-processing"
+                },
+                {
+                    "name": "NLTK Docs",
+                    "url": "https://www.nltk.org/"
+                },
+                {
+                    "name": "spaCy Docs",
+                    "url": "https://spacy.io/docs"
+                },
+                {
+                    "name": "NLP Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Natural_language_processing"
+                },
+                {
+                    "name": "Hugging Face Course",
+                    "url": "https://huggingface.co/learn/nlp-course"
+                }
+            ]
+        },
+        {
+            "step": 9,
+            "title": "Big Data Technologies",
+            "description": "Learn distributed computing with Hadoop, Spark, and cloud-based big data solutions.",
+            "skills": [
+                "bigdata"
+            ],
+            "subtopics": [
+                "HDFS & MapReduce",
+                "Spark RDD & DataFrames",
+                "Spark SQL",
+                "Streaming Data",
+                "Cloud Big Data Services"
+            ],
+            "officialLinks": [
+                {
+                    "name": "Big Data Hadoop (Coursera)",
+                    "url": "https://www.coursera.org/learn/big-data-hadoop"
+                },
+                {
+                    "name": "Apache Spark Docs",
+                    "url": "https://spark.apache.org/docs/latest/"
+                },
+                {
+                    "name": "Big Data Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Big_data"
+                },
+                {
+                    "name": "Google Cloud Big Data",
+                    "url": "https://cloud.google.com/big-data"
+                },
+                {
+                    "name": "AWS Big Data",
+                    "url": "https://aws.amazon.com/big-data/"
+                }
+            ]
+        },
+        {
+            "step": 10,
+            "title": "Data Engineering & Freelancing",
+            "description": "Build data pipelines, ETL workflows, and orchestration with Airflow. Prepare for freelancing with portfolio and business skills.",
+            "skills": [
+                "engineering"
+            ],
+            "subtopics": [
+                "ETL Pipelines",
+                "Workflow Orchestration",
+                "Data Warehousing",
+                "Cloud Deployment",
+                "Portfolio Building",
+                "Freelance Business Skills"
+            ],
+            "officialLinks": [
+                {
+                    "name": "Data Engineering (Coursera)",
+                    "url": "https://www.coursera.org/learn/data-engineering-python"
+                },
+                {
+                    "name": "Apache Airflow Docs",
+                    "url": "https://airflow.apache.org/docs/"
+                },
+                {
+                    "name": "Data Engineering Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Data_engineering"
+                },
+                {
+                    "name": "GitHub Portfolio Guide",
+                    "url": "https://docs.github.com/en/get-started/quickstart/hello-world"
+                },
+                {
+                    "name": "Upwork Freelancing",
+                    "url": "https://www.upwork.com/"
+                },
+                {
+                    "name": "Fiverr",
+                    "url": "https://www.fiverr.com/"
+                }
             ]
         }
     ],
-    "videos": [
+    "practicePlatforms": [
         {
-            "id": 1,
-            "title": "How to Build a Billion Dollar Company",
-            "description": "Navid Modiri interviews successful founders and shares the strategies behind billion-dollar businesses.",
-            "url": "https://www.youtube.com/embed/6w0W2w4JrG8",
-            "topic": "mindset",
-            "watched": false
+            "name": "Kaggle",
+            "url": "https://www.kaggle.com/",
+            "description": "Real-world datasets, competitions, and Jupyter notebooks."
         },
         {
-            "id": 2,
-            "title": "Startup Marketing: Growth Hacking 101",
-            "description": "Learn practical growth strategies from top marketers in the startup ecosystem.",
-            "url": "https://www.youtube.com/embed/7V4p8sSgqY0",
-            "topic": "marketing",
-            "watched": false
+            "name": "LeetCode",
+            "url": "https://leetcode.com/",
+            "description": "Coding problems and algorithm challenges with Python support."
         },
         {
-            "id": 3,
-            "title": "Financial Independence for Freelancers",
-            "description": "How to manage your finances, build wealth, and achieve financial freedom as a freelancer.",
-            "url": "https://www.youtube.com/embed/8MpLe4fK-4Q",
-            "topic": "finance",
-            "watched": true
+            "name": "HackerRank",
+            "url": "https://www.hackerrank.com/",
+            "description": "Practice coding, SQL, and data science skills with challenges."
         },
         {
-            "id": 4,
-            "title": "Product-Led Growth Strategies",
-            "description": "How to build products that sell themselves and create a self-sustaining growth engine.",
-            "url": "https://www.youtube.com/embed/9Vp4s8SgqY0",
-            "topic": "product",
-            "watched": false
+            "name": "DataCamp",
+            "url": "https://www.datacamp.com/",
+            "description": "Interactive data science courses with hands-on coding."
         },
         {
-            "id": 5,
-            "title": "Leadership & Team Building",
-            "description": "Essential skills for scaling your team and leading with empathy and vision.",
-            "url": "https://www.youtube.com/embed/10Vp4s8SgqY0",
-            "topic": "leadership",
-            "watched": false
+            "name": "Google Colab",
+            "url": "https://colab.research.google.com/",
+            "description": "Free Jupyter notebook environment with GPU support."
         },
         {
-            "id": 6,
-            "title": "From Freelancer to Agency Owner",
-            "description": "Real stories from freelancers who grew their solo practice into a thriving agency.",
-            "url": "https://www.youtube.com/embed/11Wp4s8SgqY0",
-            "topic": "mindset",
-            "watched": false
-        },
-        {
-            "id": 7,
-            "title": "Pricing Strategies That Work",
-            "description": "Learn how to price your services for maximum profitability and client satisfaction.",
-            "url": "https://www.youtube.com/embed/12Wp4s8SgqY0",
-            "topic": "sales",
-            "watched": true
-        },
-        {
-            "id": 8,
-            "title": "Scaling Your Business to $10M",
-            "description": "Step-by-step guide to scaling your business from 6 to 7 figures.",
-            "url": "https://www.youtube.com/embed/13Wp4s8SgqY0",
-            "topic": "leadership",
-            "watched": false
-        },
-        {
-            "id": 9,
-            "title": "The Art of Negotiation",
-            "description": "Negotiation tactics for freelancers, founders, and business owners.",
-            "url": "https://www.youtube.com/embed/14Wp4s8SgqY0",
-            "topic": "sales",
-            "watched": false
-        },
-        {
-            "id": 10,
-            "title": "Building a Personal Brand",
-            "description": "How to build a powerful personal brand that attracts clients and opportunities.",
-            "url": "https://www.youtube.com/embed/15Wp4s8SgqY0",
-            "topic": "marketing",
-            "watched": false
+            "name": "SQLZoo",
+            "url": "https://sqlzoo.net/",
+            "description": "Interactive SQL tutorials and live exercises."
         }
     ],
-    "blogs": [
+    "projectIdeas": [
         {
-            "id": 1,
-            "title": "From Freelancer to Founder: My Journey",
-            "description": "How I transitioned from solo freelancer to building a 20-person agency in 3 years.",
-            "category": "startup",
-            "url": "https://example.com/blog1",
-            "read": true
+            "title": "Sales Forecasting",
+            "description": "Use time series analysis to predict future sales for a retail business."
         },
         {
-            "id": 2,
-            "title": "The Art of Pricing Your Services",
-            "description": "Value-based pricing strategies for freelancers and consultants.",
-            "category": "growth",
-            "url": "https://example.com/blog2",
-            "read": false
+            "title": "Customer Segmentation",
+            "description": "Apply K-means clustering to segment customers based on purchasing behavior."
         },
         {
-            "id": 3,
-            "title": "Building a Personal Brand that Attracts Clients",
-            "description": "How to position yourself as an expert and attract high-ticket clients.",
-            "category": "marketing",
-            "url": "https://example.com/blog3",
-            "read": false
+            "title": "Sentiment Analysis on Tweets",
+            "description": "Build a NLP model to analyze public sentiment on social media."
         },
         {
-            "id": 4,
-            "title": "Financial Systems for Agency Owners",
-            "description": "Manage cash flow, profitability, and financial operations for your business.",
-            "category": "finance",
-            "url": "https://example.com/blog4",
-            "read": true
+            "title": "Movie Recommendation System",
+            "description": "Create a collaborative filtering recommendation engine using MovieLens data."
         },
         {
-            "id": 5,
-            "title": "Hiring Your First Employee",
-            "description": "Everything you need to know about making your first hire and building a team.",
-            "category": "leadership",
-            "url": "https://example.com/blog5",
-            "read": false
+            "title": "Customer Churn Prediction",
+            "description": "Use classification algorithms to predict which customers are likely to churn."
         },
         {
-            "id": 6,
-            "title": "The Zero to One Mindset",
-            "description": "How to think like a true entrepreneur and build something unique.",
-            "category": "startup",
-            "url": "https://example.com/blog6",
-            "read": true
+            "title": "House Price Prediction",
+            "description": "Build a regression model to predict property prices from features."
         },
         {
-            "id": 7,
-            "title": "Growth Marketing Playbook",
-            "description": "Proven growth strategies for SaaS and service-based businesses.",
-            "category": "growth",
-            "url": "https://example.com/blog7",
-            "read": false
+            "title": "Image Classification with CNNs",
+            "description": "Train a CNN for image recognition on CIFAR-10 or Fashion-MNIST."
         },
         {
-            "id": 8,
-            "title": "Sales Funnels for Freelancers",
-            "description": "How to build a sales system that brings in consistent leads and clients.",
-            "category": "marketing",
-            "url": "https://example.com/blog8",
-            "read": false
-        },
-        {
-            "id": 9,
-            "title": "Investing in Your Business",
-            "description": "Smart financial decisions to grow your business and build wealth.",
-            "category": "finance",
-            "url": "https://example.com/blog9",
-            "read": true
-        },
-        {
-            "id": 10,
-            "title": "Leading High-Performance Teams",
-            "description": "How to build, motivate, and retain a high-performance team.",
-            "category": "leadership",
-            "url": "https://example.com/blog10",
-            "read": false
+            "title": "NLP Chatbot",
+            "description": "Build a chatbot using NLTK, spaCy, or Hugging Face transformers for customer support."
         }
+    ],
+    "freelanceChecklist": [
+        "✅ Python & pandas proficiency",
+        "✅ SQL querying skills",
+        "✅ Data visualization with matplotlib/seaborn",
+        "✅ Machine learning with scikit-learn",
+        "✅ Deep learning fundamentals",
+        "✅ NLP with Transformers",
+        "✅ Portfolio with 5+ projects on GitHub",
+        "✅ GitHub profile with clean, documented code",
+        "✅ Kaggle competition participation",
+        "✅ Freelance platform profile (Upwork/Fiverr)",
+        "✅ Clear pricing strategy for services",
+        "✅ Ability to communicate insights to non-technical stakeholders"
     ],
     "tools": [
         {
-            "id": 1,
-            "name": "Notion",
-            "description": "All-in-one workspace for notes, databases, and project management. Use it to organize your business.",
-            "category": "productivity",
-            "url": "https://notion.com",
-            "mastered": false
+            "name": "Jupyter Notebook",
+            "url": "https://jupyter.org/",
+            "category": "IDE",
+            "description": "Interactive notebook environment for data science.",
+            "free": true,
+            "official": true
         },
         {
-            "id": 2,
-            "name": "Figma",
-            "description": "Design tool for UI/UX prototyping and collaboration. Essential for design-led companies.",
-            "category": "design",
-            "url": "https://figma.com",
-            "mastered": true
+            "name": "Google Colab",
+            "url": "https://colab.research.google.com/",
+            "category": "Cloud",
+            "description": "Free GPU-accelerated notebooks in the cloud.",
+            "free": true,
+            "official": true
         },
         {
-            "id": 3,
-            "name": "Zapier",
-            "description": "Automate workflows between hundreds of apps without writing any code.",
-            "category": "automation",
-            "url": "https://zapier.com",
-            "mastered": false
+            "name": "VS Code",
+            "url": "https://code.visualstudio.com/",
+            "category": "IDE",
+            "description": "Lightweight, powerful code editor with Python and data science extensions.",
+            "free": true,
+            "official": true
         },
         {
-            "id": 4,
-            "name": "Stripe",
-            "description": "Payment processing for businesses of all sizes. Accept payments from anywhere.",
-            "category": "finance",
-            "url": "https://stripe.com",
-            "mastered": true
+            "name": "Git",
+            "url": "https://git-scm.com/",
+            "category": "Version Control",
+            "description": "Essential version control for any developer.",
+            "free": true,
+            "official": true
         },
         {
-            "id": 5,
-            "name": "Vercel",
-            "description": "Deploy modern frontend apps with ease. Built for developers who ship fast.",
-            "category": "development",
-            "url": "https://vercel.com",
-            "mastered": false
-        },
-        {
-            "id": 6,
-            "name": "HubSpot",
-            "description": "All-in-one CRM, marketing, sales, and customer service platform for growing businesses.",
-            "category": "marketing",
-            "url": "https://hubspot.com",
-            "mastered": false
-        },
-        {
-            "id": 7,
-            "name": "Airtable",
-            "description": "Combine the power of spreadsheets with the structure of databases. Build workflows that scale.",
-            "category": "productivity",
-            "url": "https://airtable.com",
-            "mastered": false
-        },
-        {
-            "id": 8,
-            "name": "Adobe XD",
-            "description": "Design and prototype user experiences with Adobe's powerful design tool.",
-            "category": "design",
-            "url": "https://adobe.com/xd",
-            "mastered": true
-        },
-        {
-            "id": 9,
             "name": "GitHub",
-            "description": "Code hosting and collaboration platform. Essential for team development.",
-            "category": "development",
-            "url": "https://github.com",
-            "mastered": true
+            "url": "https://github.com/",
+            "category": "Collaboration",
+            "description": "Host your code, showcase your portfolio, collaborate with the global community.",
+            "free": true,
+            "official": true
         },
         {
-            "id": 10,
-            "name": "Buffer",
-            "description": "Social media management platform to schedule posts and analyze performance.",
-            "category": "marketing",
-            "url": "https://buffer.com",
-            "mastered": false
+            "name": "Docker",
+            "url": "https://www.docker.com/",
+            "category": "DevOps",
+            "description": "Containerize your data science applications for reproducibility.",
+            "free": true,
+            "official": true
         },
         {
-            "id": 11,
-            "name": "Make (Integromat)",
-            "description": "Visual automation platform that connects apps and automates complex workflows.",
-            "category": "automation",
-            "url": "https://make.com",
-            "mastered": false
+            "name": "Tableau Public",
+            "url": "https://public.tableau.com/",
+            "category": "Visualization",
+            "description": "Free data visualization tool for interactive dashboards.",
+            "free": true,
+            "official": true
         },
         {
-            "id": 12,
-            "name": "Xero",
-            "description": "Cloud-based accounting software for small businesses and agencies.",
-            "category": "finance",
-            "url": "https://xero.com",
-            "mastered": false
+            "name": "PostgreSQL",
+            "url": "https://www.postgresql.org/",
+            "category": "Database",
+            "description": "The world's most advanced open source relational database.",
+            "free": true,
+            "official": true
+        },
+        {
+            "name": "Apache Spark",
+            "url": "https://spark.apache.org/",
+            "category": "Big Data",
+            "description": "Unified analytics engine for large-scale data processing.",
+            "free": true,
+            "official": true
+        },
+        {
+            "name": "TensorFlow",
+            "url": "https://www.tensorflow.org/",
+            "category": "Deep Learning",
+            "description": "End-to-end open source platform for machine learning.",
+            "free": true,
+            "official": true
+        },
+        {
+            "name": "PyTorch",
+            "url": "https://pytorch.org/",
+            "category": "Deep Learning",
+            "description": "Dynamic deep learning framework with Python-first approach.",
+            "free": true,
+            "official": true
+        },
+        {
+            "name": "Apache Airflow",
+            "url": "https://airflow.apache.org/",
+            "category": "Orchestration",
+            "description": "Platform to programmatically author, schedule, and monitor workflows.",
+            "free": true,
+            "official": true
+        },
+        {
+            "name": "Streamlit",
+            "url": "https://streamlit.io/",
+            "category": "Visualization",
+            "description": "Build interactive data apps in Python in minutes.",
+            "free": true,
+            "official": true
         }
-    ],
-    "settings": {
-        "name": "Rizwan Ali",
-        "email": "rizwanrka826@gmail.com",
-        "bio": "Freelancer on a mission to become a great entrepreneur. Passionate about building products and teams.",
-        "currency": "USD",
-        "timezone": "EST"
-    },
-    "journey": {
-        "milestones": 7,
-        "resourcesConsumed": 15,
-        "videosWatched": 8,
-        "toolsMastered": 5
-    }
+    ]
 }
